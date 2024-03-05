@@ -487,3 +487,20 @@ transition: 0.5s ease;
         height: 100%;
     }
 }
+@media only screen and (max-width: 480px) {
+    .sicon i, .bag, .bar-button {
+        font-size: 2rem; /* adjust the size as needed */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* styles for mobile devices */
+    #header {
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .sicon i, .bag, .bar-button {
+      font-size: 2rem;
+      padding: 0.5rem;
+    }
+  }

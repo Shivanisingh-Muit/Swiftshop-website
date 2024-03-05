@@ -576,27 +576,4 @@ transition: 0.5s ease;
       padding: 0.5rem;
     }
   }
-  /* menu icon and bag icon is displayed right code  */
-  @media (max-width: 480px) {
-    .mobile {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .bag, .bar-button {
-      font-size: 1rem; /* adjust the size as needed */
-   
-    }
-    /* hide the overflow menu icon */
-    #navbar .text {
-      display: none;
-    }
-    /* show the overflow menu icon */
-    #navbar .sicon {
-      display: inline-block;
-     
-    }
-    #navbar .sicon i{
-        font-size: 3rem;
-    }
-  }
+  

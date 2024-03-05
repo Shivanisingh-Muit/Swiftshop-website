@@ -82,7 +82,6 @@ font-size: 2rem;
 padding-top: 10px;
 padding-right: 40px;
 padding-left: 2px;
-margin-right: 90px;
 font-weight: 900;
 font-style: italic;
 }
@@ -494,7 +493,7 @@ transition: 0.5s ease;
         margin-bottom: 25px;
     }
     #header{
-        padding: 10px 10px;
+        padding: 0px 0px;
         width: 100%;
     }
     h1{
@@ -559,3 +558,45 @@ transition: 0.5s ease;
         height: 100%;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .sicon i, .bag, .bar-button {
+        font-size: 2rem; /* adjust the size as needed */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* styles for mobile devices */
+    #header {
+      max-width: 100%;
+      overflow: hidden;
+    }
+    .sicon i, .bag, .bar-button {
+      font-size: 2rem;
+      padding: 0.5rem;
+    }
+  }
+  /* menu icon and bag icon is displayed right code  */
+  @media (max-width: 480px) {
+    .mobile {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .bag, .bar-button {
+      font-size: 1rem; /* adjust the size as needed */
+   
+    }
+    /* hide the overflow menu icon */
+    #navbar .text {
+      display: none;
+    }
+    /* show the overflow menu icon */
+    #navbar .sicon {
+      display: inline-block;
+     
+    }
+    #navbar .sicon i{
+        font-size: 3rem;
+    }
+  }
